@@ -1,0 +1,29 @@
+<features name="my-features-1.0" xmlns="http://karaf.apache.org/xmlns/features/v1.0.0">
+    <feature name="my-feature" version="2.2.4" resolver="(obr)">
+        <bundle>mvn:org.ops4j.pax.url/pax-url-mvn/1.2.8</bundle>
+        <bundle>mvn:org.ops4j.pax.url/pax-url-wrap/1.2.8</bundle>
+        <bundle>mvn:org.ops4j.pax.logging/pax-logging-api/1.6.3</bundle>
+        <bundle>mvn:org.ops4j.pax.logging/pax-logging-service/1.6.3</bundle>
+        <bundle>mvn:org.apache.felix/org.apache.felix.configadmin/1.2.8</bundle>
+        <bundle>mvn:org.apache.felix/org.apache.felix.fileinstall/3.1.10</bundle>
+        <bundle>mvn:org.apache.servicemix.bundles/org.apache.servicemix.bundles.asm/3.3_2</bundle>
+        <bundle>mvn:org.apache.aries/org.apache.aries.util/0.3</bundle>
+        <bundle>mvn:org.apache.aries.proxy/org.apache.aries.proxy/0.3</bundle>
+        <bundle>mvn:org.apache.aries.blueprint/org.apache.aries.blueprint/0.3.1</bundle>
+        <bundle>mvn:org.apache.karaf.shell/org.apache.karaf.shell.console/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.shell/org.apache.karaf.shell.osgi/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.shell/org.apache.karaf.shell.log/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.shell/org.apache.karaf.shell.packages/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.shell/org.apache.karaf.shell.commands/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.shell/org.apache.karaf.shell.dev/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.config/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.modules/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.jaas/org.apache.karaf.jaas.command/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.features/org.apache.karaf.features.core/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.features/org.apache.karaf.features.command/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.features/org.apache.karaf.features.management/2.2.4</bundle>
+        <bundle>mvn:org.apache.karaf.management/org.apache.karaf.management.server/2.2.4</bundle>
+        <bundle>mvn:org.apache.aries.jmx/org.apache.aries.jmx/0.3</bundle>
+        <bundle>mvn:org.apache.aries.jmx/org.apache.aries.jmx.blueprint/0.3</bundle>
+    </feature>
+</features>
