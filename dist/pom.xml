@@ -72,6 +72,7 @@
               <features>
                 <feature>my-feature</feature>
               </features>
+              <repository>target/features-repo</repository>
            </configuration>
           </execution>
         </executions>
